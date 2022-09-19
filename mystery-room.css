@@ -77,38 +77,44 @@ p {
 /*  */
 /*  */
 
-.riddle-1,.riddle-2 {
+.riddle-1,.riddle-2,.riddle-3,.riddle-5,.riddle-6,.riddle-7,.riddle-8,.riddle-9,.riddle-10 {
  font-size: 20px;
 }
-.riddle-1-title,.riddle-2-title{
+.riddle-1-title,.riddle-2-title,.riddle-3-title,.riddle-4-title,.riddle-5-title,.riddle-6-title,.riddle-7-title,.riddle-8-title,.riddle-9-title,.riddle-10-title{
   display: flex;
   flex: 1;
   justify-content: center;
   margin-bottom: 10px;
 }
-.riddle-1-p,.riddle-2-p {
+.riddle-1-p,.riddle-2-p,.riddle-3-p,.riddle-4-p,.riddle-5-p,.riddle-6-p,.riddle-7-p,.riddle-8-p,.riddle-9-p,.riddle-10-p {
   display: flex;
   flex: 1;
   justify-content: center;
   margin-bottom: 30px;
 }
 
-.riddle-1-clue,.riddle-2-clue{
+.riddle-1-clue,.riddle-2-clue,.riddle-3-clue,.riddle-4-clue,.riddle-5-clue,.riddle-6-clue,.riddle-7-clue,.riddle-8-clue,.riddle-9-clue,.riddle-10-clue {
   display: flex;
   flex: 1;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-.image-1-div,.image-2-div {
+.image-1-div,.image-2-div,.image-3-div,.image-4-div,.image-5-div,.image-6-div,.image-7-div,.image-8-div,.image-9-div,.image-10-div {
   display: flex;
   flex: 1;
   justify-content: center;
+}
+.image-1-div,.image-2-div {
   height: 250px;
 }
-.riddle-1-image-div,.riddle-2-image-div {
-  display: inline;
+.image-3-div {
+  height: 300px;
 }
+.image-4-div,.image-5-div {
+  height: 350px;
+}
+
 
 /* buttons Riddle 1 */
 /*  */
@@ -204,5 +210,152 @@ p {
   background-color: rgb(45, 45, 45);
 }
 .riddle-2-button-4:active  {
+  background-color: rgb(45, 45, 45);
+}
+
+/* buttons riddle 3 */
+/*  */
+/*  */
+/*  */
+.riddle-3-button-1,.riddle-3-button-2,.riddle-3-button-3,.riddle-3-button-4 {
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 50px;
+}
+.riddle-3-button-1 {
+  background-color: #FFD700;
+  color: black;
+}
+.riddle-3-button-2 {
+  background-color:#FFD700;
+  color: black;
+  margin-left: 10px;
+}
+.riddle-3-button-3 {
+  background-color:#FFD700 ;
+  color: black;
+  margin-left: 10px;
+}
+.riddle-3-button-4 {
+  background-color: #FFD700;
+  color: black;
+  margin-left: 10px;
+}
+
+.riddle-3-button-1:hover {
+  background-color:  #d4c21e;
+}
+.riddle-3-button-2:hover {  
+  background-color:  #d4c21e;
+}
+.riddle-3-button-3:hover {
+  background-color:  #d4c21e;
+}
+.riddle-3-button-4:hover  {
+  background-color:  #d4c21e;
+}
+.riddle-3-button-1:active {
+  background-color: rgb(45, 45, 45);
+  color: whitesmoke;
+}
+.riddle-3-button-2:active {  
+  background-color: rgb(45, 45, 45);
+  color: whitesmoke;
+}
+.riddle-3-button-3:active {
+  background-color: rgb(45, 45, 45);
+  color: whitesmoke;
+}
+.riddle-3-button-4:active  {
+  background-color: rgb(45, 45, 45);
+  color: whitesmoke;
+}
+
+/* buttons Riddle 4 */
+/*  */
+/*  */
+/*  */
+
+.riddle-4-button-1,.riddle-4-button-2,.riddle-4-button-3 {
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.riddle-4-button-2 {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 20px;
+}
+.riddle-4-button-3 {
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-left: 20px;
+}
+.riddle-4-button-1 {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+
+.riddle-4-button-1:active {
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+.riddle-4-button-2:active {  
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+.riddle-4-button-3:active {
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+ 
+/* buttons Riddle 5 */
+/*  */
+/*  */
+/*  */
+
+.riddle-5-button-1,.riddle-5-button-2,.riddle-5-button-3 {
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.riddle-5-button-1 {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.riddle-5-button-2 {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.riddle-5-button-3 {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+
+.riddle-5-button-1:active {
+  background-color: rgb(45, 45, 45);
+}
+.riddle-5-button-2:active {  
+  background-color: rgb(45, 45, 45);
+}
+.riddle-5-button-3:active {
   background-color: rgb(45, 45, 45);
 }
